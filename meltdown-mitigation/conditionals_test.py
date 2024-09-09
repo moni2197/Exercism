@@ -41,7 +41,7 @@ class MeltdownMitigationTest(unittest.TestCase):
         voltage = 10
         theoretical_max_power = 10000
 
-        # The numbers are chosen so that current == 10 x percentage
+        # The numbers are chosen so that current == 10x percentage
         test_data = ((1000, 'green'), (999, 'green'), (800, 'green'),
                      (799, 'orange'), (700, 'orange'), (600, 'orange'),
                      (599, 'red'), (560, 'red'), (400, 'red'), (300, 'red'),
